@@ -11,11 +11,11 @@ if ! git diff --quiet || ! git diff --cached --quiet; then
     exit 1
 fi
 
-# Run format-fix to clean up any formatting issues
+# Run format to clean up any formatting issues
 echo "🔧 Auto-fixing formatting issues..."
-make format-fix
+make format
 
-# Check if format-fix made any changes
+# Check if format made any changes
 if ! git diff --quiet; then
     echo "✅ Formatting issues were fixed automatically"
     echo "📝 Staging and committing formatting changes..."
