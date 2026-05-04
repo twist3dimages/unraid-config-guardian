@@ -27,6 +27,6 @@ pre-commit>=3.3.0
 tox>=4.6.0
 
 # Linting and formatting (versions should match .pre-commit-config.yaml)
-black==23.9.1
+black==23.12.1
 isort==5.12.0
 flake8==6.0.0
