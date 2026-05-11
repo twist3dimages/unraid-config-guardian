@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 LABEL maintainer="Stephon Parker <sgparker62@gmail.com>"
 LABEL description="Unraid Config Guardian - Disaster recovery documentation for Unraid servers"
